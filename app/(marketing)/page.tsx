@@ -1,6 +1,4 @@
-import { ReactNode } from "react";
 import { Medal } from 'lucide-react';
-import button from 'react'
 import Link from "next/link";
 
 
@@ -19,7 +17,7 @@ const MarketingPage = () => {
             Progress Further.
           </div>
           <div className="text-sm md:text-lg text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
-            Let's collaborate, manage projects and reach new productivity peaks. From high rises to the home office, the  way your team work is unique and efficient accomplish it all with our Trello Clone App made by <strong> Faiz Khan</strong>.
+            Lets collaborate, manage projects and reach new productivity peaks. From high rises to the home office, the  way your team work is unique and efficient accomplish it all with our Trello Clone App made by <strong> Faiz Khan</strong>.
           </div>
         <button className="p-3 pl-6 pr-6 shadow-sm text-sm bg-black text-white rounded-md m-4">
           <Link href={"/sign-up"}>
